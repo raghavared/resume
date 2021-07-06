@@ -1,3 +1,3 @@
 # resume
 
-# Raghavendar Reddy Kodala
+Raghavendar Reddy Kodala
