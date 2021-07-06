@@ -1,0 +1,233 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% raghava - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Raghavendar Reddy (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Raghavendar}{Reddy}{ 
+\href{mailto:kodalaraghavareddy@gmail.com}{kodalaraghavareddy@gmail.com} | +91 9505804136}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{Sree Dattha Institute Of}
+\subsection{Engineering \& Science}
+\descript{Bachelor's Degree in Computer Science}
+\location{June 2021 | CGPA 7.0 | Hyderabad, India}
+\sectionsep
+
+\subsection{TELANGANA BOARD OF}
+\subsection{INTERMEDIATE EDUCATION}
+\descript{Narayana Jr College}
+\location{May 2017 | CGPA 9.41 | Hyderabad, India}
+\sectionsep
+
+\subsection{Vashista Model}
+\subsection{High School}
+\location{May 2015 | CGPA 8.8 | Hyderabad, India}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Links} 
+
+HackerRank://  \href{https://www.hackerrank.com/kodalaraghavare1}{\bf kodalaraghavare1} \\
+Github:// \href{https://github.com/raghavared}{\bf raghavared} \\
+LinkedIn://  \href{https://www.linkedin.com/in/raghavareddy22/}{\bf raghavareddy22/} \\
+LinkedIn://  \href{https://twitter.com/raghava_rdy/}{\bf raghava\_rdy/} \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\sectionsep
+\section{Coursework}
+\subsection{UNDERGRADUATE}
+Data Structures and Algorithms\\
+Database Management Systems\\
+Operating Systems\\
+File Structures\\
+Computer Networks\\
+Cloud Computing\\
+Object Oriented Programming\\
+Unix Tools and Scripting\\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\location{Over 10000 lines:}
+\textbullet{} VanillaJS \textbullet{} NodeJs \\ 
+\textbullet{} Express \textbullet{} Rest APIs\\
+\location{Databases}
+\textbullet{} MySQL
+\textbullet{} NoSQL (MongoDB)
+\textbullet{} Redis(cache)\\ 
+\location{Academic Experience}
+\textbullet{} C \textbullet{} C++ 
+\textbullet{} Python \textbullet{} OpenCV\\
+\location{Familiar:}
+\textbullet{} Nginx \textbullet{} AWS\\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Academic Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Academic Projects}
+
+\runsubsection{Peer to Peer Lending}\\
+\descript{An Online Collateral Free Money Lending Platform}
+\location{Apr 2021 – Jun 2021 | Hyderabad, India}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Used Blockchain technology to implement features like smart contracts, public and private networks in the project.
+\item This platform can optimize P2P process by making fast, reliable transactions by eliminating financial intermediary.
+\item TechStack: HTML,CSS, Javascript, Solidity, Blockchain.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Pregnancy Tips using ALEXA}\\
+\descript{An Online Collateral Free Money Lending Platform}
+\location{Nov 2020 – Dec 2020 | Hyderabad, India}
+% \vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Its an Audio-only Internet platform / AI Voice Assistant for Independent Womens.
+\item The aim of the project was to help pregnancy women by giving them tips based on their current health status.
+\item Deployed the project to AWS.
+\item TechStack: Python, JSON, AWS.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Personal Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Personal Projects}
+\runsubsection{Gesture Controlled Games}\\
+\descript{Games Controlled by Hand Gestures}
+\location{Nov 2020 – Dec 2020 | Hyderabad, India}
+% \vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Built a simple project built with Python, OpenCV Computer Vision where we can control the actions in a game by hand gestures.
+\item TechStack: Python, OpenCV.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Invisible Mask}\\
+\location{Nov 2020 – Dec 2020 | Hyderabad, India}
+\begin{tightemize}
+\item If a person is Masked up its removes the mask off and shows his face on the screen and vice versa.
+\item TechStack: Python, OpenCV.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Achievements \& Certifications}
+\runsubsection{}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Received a Merit Certificate from Computer Society of India for participating in IoT based Hackathon.
+\item Introduction of Self-Driving Cars By University of Toronto
+\item Machine Learning Certificate by IIT-Hyderabad.
+\item Android Studio Development By Coursera
+\item Python By Google
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
