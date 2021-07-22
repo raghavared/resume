@@ -4,10 +4,8 @@
 % Version 1.2 (16/9/2014)
 %
 % Original author:
-% Raghavendar Reddy (http://debarghyadas.com)
+% Raghavendar Reddy 
 %
-% Original repository:
-% https://github.com/deedydas/Deedy-Resume
 %
 % IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
 %
@@ -108,7 +106,7 @@
 HackerRank://  \href{https://www.hackerrank.com/kodalaraghavare1}{\bf kodalaraghavare1} \\
 Github:// \href{https://github.com/raghavared}{\bf raghavared} \\
 LinkedIn://  \href{https://www.linkedin.com/in/raghavareddy22/}{\bf raghavareddy22/} \\
-LinkedIn://  \href{https://twitter.com/raghava_rdy/}{\bf raghava\_rdy/} \\
+Twitter://  \href{https://twitter.com/raghava_rdy/}{\bf raghava\_rdy/} \\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     COURSEWORK
